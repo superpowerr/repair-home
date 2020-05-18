@@ -372,6 +372,13 @@ img {
         height: 2px;
         background-color: #E3B873;
         margin: 0 10px; }
+    .section-title__description {
+      margin: 0 auto;
+      margin-top: 1.72rem;
+      margin-bottom: 2.86rem;
+      max-width: 52.93rem;
+      font-size: 0.96rem;
+      line-height: 1.93rem; }
 
 .header {
   position: fixed;
@@ -565,6 +572,8 @@ img {
     align-items: center; }
   .types__card {
     margin-bottom: 4.29rem; }
+  .card__item:nth-of-type(n+8) {
+    display: none; }
   .card__text {
     margin-left: 0; } }
 
