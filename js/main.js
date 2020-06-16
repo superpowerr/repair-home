@@ -72,4 +72,6 @@ $(document).ready(function () {
     block.eq(index).addClass('target-block__item--active');
   });
 
+  new WOW().init();
+
 });
